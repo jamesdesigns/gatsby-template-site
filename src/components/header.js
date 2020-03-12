@@ -11,6 +11,12 @@ const Header = ({ siteTitle }) => (
       textAlign: 'center'
     }}
   >
+    <nav>
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/page-2">Images</Link></li>
+      </ul>
+    </nav>
     <div
       style={{
         margin: `0 auto`,
@@ -30,6 +36,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <Image />
+
     </div>
   </header>
 )

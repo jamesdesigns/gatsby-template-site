@@ -623,6 +623,17 @@ pre tt:after {
   max-width: 900px;
 }
 
+
+#titles {
+float:left;
+}
+
+.movie {
+  display: block;
+  width: 200px;
+  height: 325px;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
