@@ -12,9 +12,9 @@ const Header = ({ siteTitle }) => (
     }}
   >
     <nav>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/page-2">Images</Link></li>
+      <ul class="menu">
+        <li><Link to="/" style={{color: 'white', textDecoration:'none'}}>Home</Link></li>
+        <li><Link to="/page-2" style={{color: 'white', textDecoration:'none'}}>Images</Link></li>
       </ul>
     </nav>
     <div
